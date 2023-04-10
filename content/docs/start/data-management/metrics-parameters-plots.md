@@ -23,7 +23,7 @@ DVC makes it easy to track [metrics](/doc/command-reference/metrics), update
 All of the above can be combined into [experiments] to run and compare many
 iterations of your ML project.
 
-[experiments]: /doc/start/experiments
+[experiments]: /doc/start/experiments/
 
 </admon>
 
@@ -84,7 +84,7 @@ files to be versioned by Git.
 </details>
 
 [`evaluate.py`] writes the model's [ROC-AUC] and [average precision] to
-`eval/live/metrics.json` (previously marked as a [metrics file] with `-M`):
+`eval/live/metrics.json` (designated a [metrics file] with `-M` above):
 
 ```json
 {

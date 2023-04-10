@@ -3,7 +3,7 @@
 One of the main uses of <abbr>DVC repositories</abbr> is the
 [versioning of data and model files](/doc/use-cases/data-and-model-files-versioning).
 DVC also enables cross-project
-[reusability](/doc/start/data-management/discovering-and-accessing-data) of
+[reusability](/doc/start/user-guide/how-to/discovering-and-accessing-data) of
 these <abbr>data artifacts</abbr>. This means that your projects can depend on
 data from other repositories — like a **package management system for data
 science**.
